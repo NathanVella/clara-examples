@@ -4,6 +4,19 @@ This project contains example use [clara-rules](http://github.com/cerner/clara-r
 
 # _Usage_
 
+---
+### Nate Edits
+Make sure you are running java version 8. The examples won't work with any other java versions. 
+To set java 8:
+``` bash
+export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
+```
+Install Leiningen by using: `brew install leiningen`
+
+Continue with below instructions. 
+
+---
+
 The Clojure examples can be run via the [Leiningen](http://leiningen.org) build system. Simply check out this project and run the following from its root directory on a system where Leiningen is installed:
 
 ```bash

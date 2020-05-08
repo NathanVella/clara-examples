@@ -1,7 +1,7 @@
 (ns clara.examples.java.shopping  
   (:require [clara.rules.accumulators :as acc]
             [clara.rules :refer :all])
-  (:import [clara.examples.java Customer Order Promotion]))
+  (:import [clara.examples.java.model Customer Order Promotion]))
 
 (defrule awesome-promotion-for-vips
    "Creates an awesome promotion for VIPs that spend more than $200"

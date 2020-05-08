@@ -1,4 +1,4 @@
-package clara.examples.java;
+package clara.examples.java.model;
 
 /**
  * Java bean used in example rules.

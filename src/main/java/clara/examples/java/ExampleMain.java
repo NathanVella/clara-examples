@@ -1,5 +1,9 @@
 package clara.examples.java;
 
+import clara.examples.java.model.Customer;
+import clara.examples.java.model.Order;
+import clara.examples.java.model.Promotion;
+
 import clara.rules.QueryResult;
 import clara.rules.RuleLoader;
 import clara.rules.WorkingMemory;

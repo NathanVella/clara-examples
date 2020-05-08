@@ -7,6 +7,10 @@
                  [org.clojure/clojure "1.7.0"]
                  [com.cerner/clara-rules "0.20.0"]
 
+                 ;; NOTE: Needed to add this to get the examples running
+                 ;; Dependencies for com.cemerick/austin
+                 [org.clojure/tools.nrepl "0.2.13"]
+
                  ;; Dependencies for ClojureScript example.
                  [prismatic/dommy "1.1.0"]
                  [hipo "0.4.0"]
